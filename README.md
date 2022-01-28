@@ -46,21 +46,21 @@ Nhấn *Create Monitor*
 **B6:** TOKEN là một thứ rất quan trọng khi tạo bot Discord vì vậy tôi khuyên bạn nên để TOKEN trong phần Secret của Replit và truy cập đến TOKEN bằng process.env['TOKEN'] để bảo vệ TOKEN của bạn
 
 >## **Thư viện liên quan**
-**[@discordjs/opus](https://github.com/discordjs/opus)**: v0.5.3,
+**[@discordjs/opus](https://github.com/discordjs/opus)**: v0.5.3
 
-**[@discordjs/voice](https://discordjs.github.io/voice/)**: v0.8.0,
+**[@discordjs/voice](https://discordjs.github.io/voice/)**: v0.8.0
 
-**[discord.js](https://discord.js.org/#/)**: v13.6.0,
+**[discord.js](https://discord.js.org/#/)**: v13.6.0
 
-**[ffmpeg](https://www.npmjs.com/package/ffmpeg)**: v0.0.4,
+**[ffmpeg](https://www.npmjs.com/package/ffmpeg)**: v0.0.4
 
-**[ffmpeg-static](https://www.npmjs.com/package/ffmpeg-static)**: v4.4.1,
+**[ffmpeg-static](https://www.npmjs.com/package/ffmpeg-static)**: v4.4.1
 
-**[libsodium-wrappers](https://www.npmjs.com/package/libsodium-wrappers)**: v0.7.9,
+**[libsodium-wrappers](https://www.npmjs.com/package/libsodium-wrappers)**: v0.7.9
 
-**[npm](https://www.npmjs.com/package/npm)**: v8.3.2,
+**[npm](https://www.npmjs.com/package/npm)**: v8.3.2
 
-**[opusscript](https://github.com/abalabahaha/opusscript)**: v0.0.8,
+**[opusscript](https://github.com/abalabahaha/opusscript)**: v0.0.8
 
 **[ytdl-core](https://github.com/fent/node-ytdl-core)**: v4.10.0
 
