@@ -12,23 +12,23 @@ client.on("messageCreate", async (msg) => {
 	let interval;
 	if (msg.author.bot || msg.channel.type == "dm") return;
     if (msg.content.startsWith("start24/7")){
-			let stream = ytdl("Link LIVE trên YouTube", { 
-				highWaterMark: 100 << 150
-			});
-			const player = await createAudioPlayer();
-			await joinVoiceChannel({
-				channelId: "ID kênh voice hoặc kênh stage",
-				guildId: msg.guild.id,
-				adapterCreator: msg.guild.voiceAdapterCreator
-			}).subscribe(player);
-			const resource = createAudioResource(stream);
-			interval = setInterval(async () => {
-				player.play(resource);
-			}, 1800000);
+		let stream = ytdl("Link LIVE trên YouTube", { 
+			highWaterMark: 100 << 150
+		});
+		const player = await createAudioPlayer();
+		await joinVoiceChannel({
+			channelId: "ID kênh voice hoặc kênh stage",
+			guildId: msg.guild.id,
+			adapterCreator: msg.guild.voiceAdapterCreator
+		}).subscribe(player);
+		const resource = createAudioResource(stream);
+		interval = setInterval(async () => {
+			player.play(resource);
+		}, 1800000);
     }else if (msg.content.startsWith("stop24/7")){
-				interval = clearInterval(interval);
-				stream.destroy();
-		}
+		interval = clearInterval(interval);
+		stream.destroy();
+	}
 });
 
 //24/7
