@@ -1,7 +1,8 @@
 # **Music Bot 24/7**
-Để bot hoạt động vui lòng làm theo các bước sau:
 
 >## **Khởi tạo**
+Để bot hoạt động vui lòng làm theo các bước sau:
+
 **B1**: Tạo tài khoản tại **[Replit](replit.com)**
 
 **B2**: Tạo project mới
