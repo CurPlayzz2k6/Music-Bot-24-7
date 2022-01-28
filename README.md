@@ -67,5 +67,5 @@ Nhấn *Create Monitor*
 >## **Lệnh**
 |      Lệnh       |                Thông tin                     |    Tham số    |
 |:----------------|:--------------------------------------------:|--------------:|
-|  **start24/7**  |        Bắt đầu phát 24/7 sau 10 phút         |   Không có    |
+|  **start24/7**  |        Bắt đầu phát 24/7 sau 30 phút         |   Không có    |
 |  **stop24/7**   |        Dừng phát 24/7                        |   Không có    |
